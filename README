@@ -7,4 +7,15 @@ Using python to build pentesting tools "pyntesting"
 
 2.router.py : small script to monitor my asus router at home by checking not trusted connected device.(conecting to router webpage)
               usage : router.py -R router_ip -U admin_user -P password
+              
+                [+]number of connceted clients :  3
+                [-]clients MAC Address : 
+                 >>>>>>XX:XX:60:XX:XX:XX
+                 >>>>>>X1:XX:60:XX:XX:XX
+                 >>>>>>X2:XX:60:XX:XX:XX
+
+                [+]Intrusion detected >> MAC Address :XX:XX:60:XX:XX:XX
+                [+]no intrusion :X1:XX:60:XX:XX:XX >>   trusted device
+                [+]Intrusion detected >> MAC Address :X2:XX:60:XX:XX:XX
+
 
