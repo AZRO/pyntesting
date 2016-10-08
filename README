@@ -1,4 +1,10 @@
 Using python to build pentesting tools "pyntesting"
-this a  simple script to brute force SSH using dictionary passwords.
-**Usage : "scriptname" -H "hostname" u ""username -F "passwordfile"  **
+
+
+1.BruteForceSsh.py : this a  simple script to brute force SSH using dictionary passwords.
+                     Usage : "scriptname" -H "hostname" u ""username -F "passwordfile" 
+
+
+2.router.py : small script to monitor my asus router at home by checking not trusted connected device.(conecting to router webpage)
+              usage : router.py -R router_ip -U admin_user -P password
 
